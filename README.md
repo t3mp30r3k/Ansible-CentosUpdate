@@ -18,4 +18,4 @@ first, you need to edit hosts file, that compatible with your existing infrastru
 
 next run this script with ansible.
 
-ansible-playbook -i host CentosUpdate.yml
+ansible-playbook -i hosts CentosUpdate.yml
