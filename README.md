@@ -19,3 +19,27 @@ first, you need to edit hosts file, that compatible with your existing infrastru
 next run this script with ansible.
 
 ansible-playbook -i hosts Centos-Update.yml
+
+# Diagram
+```mermaid
+graph TD
+A[Ansible] --> B(Check Packages)
+B --> C{is Kernel Update?}
+C -- Not Update --> D(Update Kernel)
+D --> E 
+C -- Kernel Update --> E(Update Packages)
+E --> F(FINISH)
+```
+
+# Requirement
+- Centos Operating System
+- Centos Repository
+
+
+# how to install
+```mermaid
+graph LR
+A[Ansible] --> B(edit hosts file)
+B --> C(ansible-playbook -i hosts Centos-Update.yml)
+C --> D(FINISH)
+
