@@ -36,7 +36,7 @@ E --> F(FINISH)
 - Centos Repository
 
 
-# how to install
+# Install diagram
 ```mermaid
 graph LR
 A[Ansible] --> B(edit hosts file)
