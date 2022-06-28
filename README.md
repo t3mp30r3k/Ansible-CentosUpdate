@@ -28,7 +28,7 @@ B --> C{is Kernel Update?}
 C -- Not Update --> D(Update Kernel)
 D --> E 
 C -- Kernel Update --> E(Update Packages)
-E --> F(FINISH)
+E --> F((FINISH))
 ```
 
 # Requirement
