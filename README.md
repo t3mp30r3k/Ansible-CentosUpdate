@@ -42,4 +42,7 @@ graph LR
 A[Ansible] --> B(edit hosts file)
 B --> C(ansible-playbook -i hosts Centos-Update.yml)
 C --> D(FINISH)
+```
 
+# Thanks
+contributor : t3mp30r3k@2022 (kangoprek.com) - rusdianto
